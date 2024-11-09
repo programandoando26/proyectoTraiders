@@ -1,0 +1,26 @@
+body {
+  background: #252528;
+}
+.menu_order {
+  list-style: none;
+  line-height: 42px;
+  /*outline: 1px solid red;*/
+  padding-left: 0;
+  width: 15em;
+}
+.menu_order___a {
+    display:block;
+    width: 100%;
+  color: #ddd;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu_order__li {
+  box-shadow: 3px 0 rgba(255, 255, 255, 0.2) inset;
+  margin-bottom: 5px;
+  padding-left: 1.5em;
+  transition: all 0.5s;
+}
+.menu_order__li:hover {
+  box-shadow: 15em 0 rgba(255, 255, 255, 0.2) inset;
+}
