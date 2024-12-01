@@ -77,6 +77,7 @@ main {
   width: 70%;
   margin: auto;
   flex-wrap: wrap;
+  background: violet;
 }
 .content_cart {
   width: 80%;
@@ -140,9 +141,32 @@ main {
 .my-button:nth-last-child(1) {
   font-size: 1rem;
 }
-
+.imagen_table {
+  margin-top: 10%;
+}
+.imagen_table img {
+  width: 250px;
+  height: 250px;
+}
 @media (min-width: 360px) and (max-width: 500px) {
   main {
     padding-top: 2.3rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  body {
+    background: red;
+  }
+}
+/* cuando el dispositivo es en forma vertical*/
+@media all and (orientation: portrait) {
+  body {
+    background: #00c203;
+  }
+}
+/* cuando el dispositivo estaen forma horizontal*/
+@media all and (orientation: landscape) {
+  body {
+    background-color: #f08b48;
   }
 }
